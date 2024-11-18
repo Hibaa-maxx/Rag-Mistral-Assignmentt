@@ -11,7 +11,7 @@ The system was designed to answer Frequently Asked Questions (FAQs) based on the
 
 ## Key Achievements
 ### Model Performance:
-- The RAG-Mistral-7B implementation, combined with All-MiniLM-L6-v2 embeddings, performed exceptionally well in answering FAQs related to the DRAP content. It excelled in scenarios where:
+- The RAG-Mistral-7B implementation, combined with All-MiniLM-L6-v2 embeddings and Fiass/BM25 retriever, performed exceptionally well in answering FAQs related to the DRAP content. It excelled in scenarios where:
 - The content provided clear answers.
 - No relevant context was available, where it correctly responded that the information was not present.
 
