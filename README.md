@@ -11,9 +11,9 @@ The system was designed to answer Frequently Asked Questions (FAQs) based on the
 
 ## Key Achievements
 ### Model Performance:
-- The RAG-Mistral-7B implementation, combined with All-MiniLM-L6-v2 embeddings and Fiass/BM25 retriever, performed exceptionally well in answering FAQs related to the DRAP content. It excelled in scenarios where:
-- The content provided clear answers.
-- No relevant context was available, where it correctly responded that the information was not present.
+- The RAG-Mistral-7B implementation, combined with All-MiniLM-L6-v2 embeddings and Fiass/BM25 retriever, performed exceptionally well in answering FAQs related to the DRAP content. #### It excelled in scenarios where:
+- When relevant content was available, it provided clear, accurate, and context-specific answers, demonstrating a high level of precision.
+- In cases where no relevant context existed, the model responded appropriately by acknowledging the absence of an answer in the given dataset. This prevented hallucination or the generation of misleading information, ensuring reliability and trustworthiness.
 
 ### Optimal Chunking Strategy:
 - To improve retrieval and answer accuracy, I experimented with different chunk sizes:
