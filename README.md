@@ -17,7 +17,7 @@ The system was designed to answer Frequently Asked Questions (FAQs) based on the
 
 ### Optimal Chunking Strategy:
 - To improve retrieval and answer accuracy, I experimented with different chunk sizes:
-- Using a chunk size of 2500 with a 300-word overlap significantly enhanced the model's ability to retrieve precise and relevant information.
+- Using a chunk size of 2500 with a 200-word overlap significantly enhanced the model's ability to retrieve precise and relevant information.
 
 ### Retriever Insights:
 - BM25 and Fiass (used individually and in combination) delivered to-the-point answers, minimizing noise and ensuring highly relevant retrievals.
